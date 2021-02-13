@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
-const App = () => (
-    <h1>React app</h1>
-);
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
     <React.StrictMode>
